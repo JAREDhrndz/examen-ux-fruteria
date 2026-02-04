@@ -11,7 +11,13 @@ const { Header, Sider, Content } = Layout
 
 function App() {
   const [selectedMenu, setSelectedMenu] = useState('dashboard')
-
+const menuItems = [
+  { key: 'dashboard', label: 'Dashboard' },
+  { key: 'productos', label: 'Productos' },
+  { key: 'entradas', label: 'Entradas' },
+  { key: 'salidas', label: 'Salidas' },
+  { key: 'caducidad', label: 'Caducidad' },
+]
   return (
     <Layout style={{ minHeight: '100vh' }}>
 <Sider className="app-sider">
@@ -24,18 +30,14 @@ function App() {
     FRUTEX
   </div>
 
-  <Menu
-    theme="dark"
-    mode="inline"
-    selectedKeys={[selectedMenu]}
-    onClick={(e) => setSelectedMenu(e.key)}
-  >
-    <Menu.Item key="dashboard">Dashboard</Menu.Item>
-    <Menu.Item key="productos">Productos</Menu.Item>
-    <Menu.Item key="entradas">Entradas</Menu.Item>
-    <Menu.Item key="salidas">Salidas</Menu.Item>
-    <Menu.Item key="caducidad">Caducidad</Menu.Item>
-  </Menu>
+<Menu
+  theme="dark"
+  mode="inline"
+  items={menuItems}
+  selectedKeys={[selectedMenu]}
+  onClick={(e) => setSelectedMenu(e.key)}
+/>
+
 </Sider>
 
 

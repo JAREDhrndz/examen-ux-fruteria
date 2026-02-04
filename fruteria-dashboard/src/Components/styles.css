@@ -104,3 +104,14 @@
 .dashboard-card--caducados {
   border: 1px solid #ff4d4f;
 }
+
+.ant-statistic-title{
+  color: #000000;
+} 
+
+/* Título del Statistic */
+.dashboard-card .ant-statistic-title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}

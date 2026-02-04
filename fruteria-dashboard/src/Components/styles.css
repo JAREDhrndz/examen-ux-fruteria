@@ -1,0 +1,106 @@
+.dashboard-hero {
+  background: #c7dea4;
+  background: linear-gradient(180deg, rgba(199, 222, 164, 1) 8%, rgba(229, 242, 216, 1) 100%);
+  border-radius: 16px;
+  margin-bottom: 24px;
+  padding: 70px 0;
+  position: relative;
+  overflow: visible;
+}
+
+.dashboard-hero-img {
+  position: absolute;
+  right: 10%;
+  bottom: -170px;
+  width: 95%;
+  height: auto;
+}
+
+.dashboard-hero-text h2 {
+  margin-bottom: 8px;
+  margin-right: 200px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+.dashboard-hero-text .ant-typography:not(h2) {
+  margin-bottom: 16px;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.app-sider {
+  background-color: #daffce36 !important;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #93b17d;
+}
+
+.app-sider .ant-menu-dark {
+  background-color: transparent;
+}
+
+.app-sider .ant-menu-dark .ant-menu-item {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.app-sider .ant-menu-dark .ant-menu-item-selected {
+  background-color: #587652 !important;
+  color: #ffffff !important;
+}
+
+.app-sider .ant-menu-dark .ant-menu-item:hover {
+  background-color: #a3b9a3e2 !important;
+  color: #000000 !important;
+}
+
+.dashboard-hero-button {
+  top: 20px;
+  margin-left: 50px;
+  background-color: #84ab76;
+  color: #000000;
+}   
+
+
+.dashboard-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 16px;
+}
+
+/* Estilos individuales */
+.dashboard-card--total-stock {
+  background-color: #e2f3ff;
+}
+
+.dashboard-card--por-caducar {
+  background-color: #fff7e6;
+}
+
+.dashboard-card--entradas-recientes {
+  background-color: #f6ffed;
+}
+
+.dashboard-card--salidas-recientes {
+  background-color: #fff0f6;
+}
+
+.dashboard-card--ultimas-entradas {
+  border: 1px solid #91d5ff;
+}
+
+.dashboard-card--ultimas-salidas {
+  border: 1px solid #ffadd2;
+}
+
+.dashboard-card--por-caducar-7-dias {
+  border: 1px solid #e88e21;
+}
+
+.dashboard-card--caducados {
+  border: 1px solid #ff4d4f;
+}

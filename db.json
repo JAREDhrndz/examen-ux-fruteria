@@ -1,0 +1,41 @@
+{
+  "productos": [
+    {
+      "nombre": "Manzana",
+      "precio": 14,
+      "stock": 70,
+      "fechaCaducidad": "2025-01-14",
+      "id": 1
+    },
+    {
+      "nombre": "Plátano",
+      "precio": 8,
+      "stock": 40,
+      "fechaCaducidad": "2026-02-04",
+      "id": 2
+    },
+    {
+      "nombre": "Nuevo",
+      "precio": 12,
+      "stock": 1,
+      "fechaCaducidad": "2027-02-24",
+      "id": 3
+    }
+  ],
+  "entradas": [
+    {
+      "id": 1,
+      "productoId": 2,
+      "cantidad": 13,
+      "fecha": "2026-02-01T05:58:21.523Z"
+    }
+  ],
+  "salidas": [
+    {
+      "id": 1,
+      "productoId": 2,
+      "cantidad": 3,
+      "fecha": "2026-02-01T06:03:36.341Z"
+    }
+  ]
+}
